@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vento — Training &amp; Recovery</title>
+<meta name="description" content="Vento is a training and recovery tracker for iOS. Support and contact information.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f7f9;
+    --text: #12151b;
+    --muted: #5c6470;
+    --rule: #e4e6ea;
+    --accent: #3461c9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0b0e;
+      --surface: #16181e;
+      --text: #f4f5f7;
+      --muted: #aeb4bf;
+      --rule: #21242c;
+      --accent: #86a9f6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 72px 22px 80px; }
+  .brand {
+    font-size: 0.8rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 18px;
+  }
+  h1 {
+    font-size: clamp(2rem, 6vw, 2.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    margin: 0 0 14px;
+  }
+  .lede { font-size: 1.08rem; color: var(--muted); margin: 0 0 44px; max-width: 52ch; }
+  h2 {
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    margin: 36px 0 8px;
+    padding-top: 22px;
+    border-top: 1px solid var(--rule);
+  }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-top: 12px;
+  }
+  .card p { margin: 0; }
+  .card p + p { margin-top: 8px; }
+  ul { padding-left: 22px; margin: 8px 0 0; }
+  li { margin: 7px 0; }
+  footer {
+    margin-top: 52px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="brand">Vento</p>
+  <h1>Training and recovery, in one place.</h1>
+  <p class="lede">
+    Vento logs your training and reads recovery signals from your wearable — HRV,
+    resting heart rate and sleep — to tell you what today is actually good for.
+    Built for iOS.
+  </p>
+
+  <h2>Support</h2>
+  <p>Questions, bug reports, or anything about your account — email us and we'll get back to you.</p>
+  <div class="card">
+    <p><a href="mailto:support@ventotraining.com">support@ventotraining.com</a></p>
+  </div>
+
+  <h2>Your data</h2>
+  <ul>
+    <li>Your training is private. There are no followers, no feed, and nothing you log is visible to another user.</li>
+    <li>Progress photos never leave your device.</li>
+    <li>No advertising, no third-party analytics, no tracking.</li>
+    <li>You can delete your account and all its cloud data from inside the app, at any time.</li>
+  </ul>
+  <p style="margin-top:14px"><a href="/privacy/">Read the full privacy policy →</a></p>
+
+  <footer>
+    Vento · <a href="/privacy/">Privacy</a> · <a href="mailto:support@ventotraining.com">Contact</a>
+  </footer>
+
+</div>
+</body>
+</html>
